@@ -15,24 +15,25 @@ app.get('/weather',(req,res)=>{
     if (lat&&lon){
         searchQuery =weatherData.find(element=>element.lat === lat && element.lon === lon)
             console.log(lat);
+            let foreCast=searchQuery.data.map(item=>{
+                return {
+                    date:item.datetime,
+                    description:item.weather.description
+                }
+            })
+            let result = {
+                city_name:searchQuery.city_name,
+                foreCast:foreCast,
+                
+                
+            }
+
+                res.status(200).json(result);
         ;}else{
                 res.status(500).send("please provide correct query params");
             }
    
-    let foreCast=searchQuery.data.map(item=>{
-                    return {
-                        date:item.datetime,
-                        description:item.weather.description
-                    }
-                })
-                let result = {
-                    city_name:searchQuery.city_name,
-                    foreCast:foreCast,
-                    
-                    
-                }
-
-                    res.status(200).json(result);
+    
 
 })
 app.listen(PORT, ()=>{
