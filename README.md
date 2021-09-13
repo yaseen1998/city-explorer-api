@@ -4,13 +4,12 @@
 **Version**: 1.0.0 
 
 ## Overview (problem domain)
-
+create your API and arrang the data then use the result in another wepsite
 
 ## Getting Started
 - creating an empty repo on Github.
 - creating a react app locally and connecting it with the Github repo plus deplying it to the Netlify.
 - creating the required files and supporting it with the needed data.
-- Linking the app with the LocationIQ website to extract the data of the cities/countries from.
 
 ## Architecture
 This App Contains a Form on it's first page so the user can type the name of their wanted city/country and press on the "Search" button to deliver the map and the exact coordinates *(latitude & longitude)* .
