@@ -19,15 +19,15 @@ This App Contains a Form on it's first page so the user can type the name of the
 
 ## Change Log
 
-Name of feature: API 
+Name of feature: create own API
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 4 hours
 
-Start time: 
+Start time: 2 
 
-Finish time: 
+Finish time: 7
 
-Actual time needed to complete:
+Actual time needed to complete: 5 hours
 
 
 ## Credit and Collaborations
