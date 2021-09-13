@@ -32,7 +32,7 @@ app.get('/weather',(req,res)=>{
                     
                 }
 
-                    res.status(200).json(foreCast);
+                    res.status(200).json(result);
 
 })
 app.listen(PORT, ()=>{
