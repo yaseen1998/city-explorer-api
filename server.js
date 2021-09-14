@@ -7,6 +7,10 @@ app.use(cors());
 require("dotenv").config();
 const PORT = process.env.PORT;
 
+app.get('/',(req,res)=>{
+    res.status(200).json({"message":"I'm working"})
+})
+
 let handleWeather = async (req, res) => {
   let lat = Number(req.query.lat);
   let lon = Number(req.query.lon);
