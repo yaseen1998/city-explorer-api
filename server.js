@@ -6,8 +6,8 @@ const cors = require("cors");
 app.use(cors());
 require("dotenv").config();
 const PORT = process.env.PORT;
-const weatherController =require("./weather");
-const movieController = require("./movies")
+const weatherController =require("./controller/weather");
+const movieController = require("./controller/movies")
 
 app.get('/',(req,res)=>{
     res.status(200).json({"message":"I'm working"})
