@@ -1,7 +1,7 @@
-class Weathermodel{
-    constructor(date, description) {
-        this.date = date;
-        this.description = description;
-      }
+class Weathermodel {
+  constructor(date, description) {
+    this.date = date;
+    this.description = description;
+  }
 }
-module.exports = Weathermodel
+module.exports = Weathermodel;
