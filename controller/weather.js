@@ -6,7 +6,7 @@ let weatherController = async (req, res) => {
   let lat = Number(req.query.lat);
   let lon = Number(req.query.lon);
   const key = "weather lat : " + lat + "weather lon : " + lon;
-  const url = `http://api.weatherbit.io/v2.0/forecast/daily/?key=${process.env.WEATHER_API_KEY}&lat=${lat}&lon=${lon}&days=5`;
+  const url = `http://api.weatherbit.io/v2.0/forecast/daily/?key=${process.env.WEATHER_API_KEY}&lat=${lat}&lon=${lon}`;
   if (
     cache.data != undefined &&
     cache.key === key &&
