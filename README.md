@@ -32,3 +32,13 @@ Actual time needed to complete: 5 hours
 
 ## Credit and Collaborations
 To *My partner in this Lab* **[rand](https://github.com/Rand92)**
+
+
+Name of feature: cache
+Estimate of time needed to complete:1 hours
+
+Start time: 3 pm
+
+Finish time: 4 pm
+
+Actual time needed to complete: 1 hours
